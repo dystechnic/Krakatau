@@ -388,9 +388,13 @@ It also can add a delay to wait for spindle to run on full speed.
 #define X_HOME_DIR -1
 #define Y_HOME_DIR -1
 #define Z_HOME_DIR -1
-#define X_MAX_LENGTH 340
-#define Y_MAX_LENGTH 440
-#define Z_MAX_LENGTH 380
+// real bed sizes
+// X: 378
+// Y: 436
+// Z: 377
+#define X_MAX_LENGTH 370
+#define Y_MAX_LENGTH 400
+#define Z_MAX_LENGTH 370
 #define X_MIN_POS 0
 #define Y_MIN_POS 0
 #define Z_MIN_POS 0
@@ -549,7 +553,7 @@ WARNING: Servos can draw a considerable amount of current. Make sure your system
 #define Z_PROBE_SWITCHING_DISTANCE 1
 #define Z_PROBE_REPETITIONS 1
 // #define Z_PROBE_HEIGHT 0.85
-#define Z_PROBE_HEIGHT 0.6
+#define Z_PROBE_HEIGHT 0.35
 #define Z_PROBE_DELAY 0
 #define Z_PROBE_START_SCRIPT ""
 #define Z_PROBE_FINISHED_SCRIPT ""
